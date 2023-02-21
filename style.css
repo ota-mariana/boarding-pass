@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Rubik', sans-serif;
+  background: linear-gradient(167.96deg, #8257E5 0%, #271A45 100%) no-repeat;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+/* UTILITY CLASS */
+.grid {
+  display: grid;
+}
+
+.column {
+  grid-auto-flow: column;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+/* SECTION GENERAL */
+h1, strong {
+  font-weight: 500;
+}
+
+strong {
+  line-height: 1.9rem;
+  font-size: 1.6rem;
+  color: rgba(0, 0, 0, 0.88);
+}
+
+h1 {
+  font-size: 3.1rem;
+  line-height: 3.5rem;
+  color: white;
+  text-align: center;
+}
+
+#boarding-pass {
+  max-width: 32.7rem;
+  margin: 3.5rem 0;
+}
+
+#ticket {
+  margin-top: 4rem;
+}
+
+section {
+  background-color: white;
+  padding: 2.4rem 3.2rem;
+}
+
+.title-info {
+  color: rgba(0, 0, 0, 0.64);
+  font-size: 1.4rem;
+}
+
+/* SECTION TOP */
+.top {
+  border-radius: 2rem;
+}
+
+.flight-date {
+  margin-bottom: 2rem;
+}
+
+.container2 {
+  justify-content: space-between;
+}
+
+.local strong, .destiny strong {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+.flight-symbol {
+  align-self: center;
+  font-size: 2.7rem;
+}
+
+/* SECTION MIDDLE */
+.middle {
+  border-radius: 2rem;
+}
+
+/* SECTION BOTTOM */
+.bottom {
+  border-radius: 2rem;
+}
+
+.bottom .container {
+  align-items: center;
+}
+
+.bottom p {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.qr-code {
+  font-size: 10px;
+}
+
+.dl-grid {
+  gap: 1.6rem;
+}
+
+.fly-time {
+  background-color: #633BBC;
+  font-weight: 500;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.8rem;
+  color: white;
+  line-height: 2rem;
+  max-width: fit-content;
+}
+
+footer {
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: white;
+  opacity: 0.6;
+  width: 27rem;
+  text-align: center;
+  margin: 2rem auto;
+}
